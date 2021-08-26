@@ -27,6 +27,13 @@ Full-Stack Open 2021 - https://fullstackopen.com (University Work)
 
 ---
 
+### Seuraavaksi
+
+- VSCode Debugging Documentation: https://code.visualstudio.com/docs/editor/debugging
+- MongoDB _"Read now the chapters on collections and documents"_ ...
+
+---
+
 ## Ohjeet
 
 ### 5 - 7 opintopistettä
