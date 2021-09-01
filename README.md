@@ -30,7 +30,8 @@ Full-Stack Open 2021 - https://fullstackopen.com (University Work)
 ### Seuraavaksi
 
 - VSCode Debugging Documentation: https://code.visualstudio.com/docs/editor/debugging
-- MongoDB _"Schema ..."_
+- "3.12" - npm install mongoose
+- Muista, että Heroku -versiossa on viimeisin versio työstä.
 
 ---
 
