@@ -29,13 +29,10 @@ Full-Stack Open 2021 - https://fullstackopen.com (University Work)
 
 ### Seuraavaksi
 
-- VSCode Debugging Documentation: https://code.visualstudio.com/docs/editor/debugging
-- "3.12" - npm install mongoose
-- Muista, että Heroku -versiossa on viimeisin versio työstä.
-- Korjaa: Etsiminen.
-- Korjaa: Korjaa Vihreä / Punainen
-- Reset -> Part 3 alkuun.
-- Etsi kohta commitesita, milloin appi toimi ja jatka siitä.
+- Part: 3C -->
+- Projekti, tehdään Phonebook alusta uudelleen.
+- Jatka kohdasta: https://fullstackopen.com/osa2/lomakkeiden_kasittely#tehtavat-2-6-2-10
+    - Seuraavaksi: 2.6 puhelinluettelo step1
 
 ---
 
