@@ -41,13 +41,9 @@ const App = () => {
     }
   ])
 
-  const [ newName, setNewName ] = useState(
-    'a new name...'
-  )
-
-  const [ newNumber, setNewNumber ] = useState(
-    'a new number...'
-  )
+  const [ newName,      setNewName      ] = useState('')
+  const [ newNumber,    setNewNumber    ] = useState('')
+  const [ errorMessage, setErrorMessage ] = useState('')
 
   /* ------------------------------------- */
   /* ------------------------------------- */
@@ -60,6 +56,21 @@ const App = () => {
       id: persons.length + 1,
       name: newName,
       number: newNumber,
+    }
+
+    var flag = 0 
+    for (let i = 0; i < persons.length; i++) {
+      if (persons[i].name.toLowerCase() === personObject.name.toLowerCase()) {
+        flag = 1
+      }
+    }
+
+    if (flag === 1) {
+      alert(`${newName} is already added to phonebook`)
+      // clear the fields before breaking out of the function
+      setNewName('')
+      setNewNumber('')
+			return // break out of the function
     }
 
     setPersons(persons.concat(personObject))

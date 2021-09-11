@@ -1,5 +1,5 @@
 ### Seuraavaksi:
 
-- 2.6: puhelinluettelo step1
+- 2.8: puhelinluettelo step3
 
 ---
