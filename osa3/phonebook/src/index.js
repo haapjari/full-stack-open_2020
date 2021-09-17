@@ -43,7 +43,7 @@ const App = () => {
 
   const [ newName,      setNewName      ] = useState('')
   const [ newNumber,    setNewNumber    ] = useState('')
-  const [ errorMessage, setErrorMessage ] = useState('')
+  // const [ errorMessage, setErrorMessage ] = useState('')
 
   /* ------------------------------------- */
   /* ------------------------------------- */
@@ -58,7 +58,7 @@ const App = () => {
       number: newNumber,
     }
 
-    var flag = 0 
+    let flag = 0 
     for (let i = 0; i < persons.length; i++) {
       if (persons[i].name.toLowerCase() === personObject.name.toLowerCase()) {
         flag = 1
