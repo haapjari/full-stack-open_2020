@@ -43,6 +43,10 @@ const App = () => {
 
   const [ newName,      setNewName      ] = useState('')
   const [ newNumber,    setNewNumber    ] = useState('')
+
+  // State for filtering the shown numbers.
+  const [ showAll,      setShowAll     ] = useState(true)
+  
   // const [ errorMessage, setErrorMessage ] = useState('')
 
   /* ------------------------------------- */
@@ -83,6 +87,8 @@ const App = () => {
       console.log(object.id + ' ' + object.name + ' ' + object.number)
     }
   }
+
+  const personsToShow = showAll
 
   /* ------------------------------------- */
   /* ------------------------------------- */
